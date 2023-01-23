@@ -31,7 +31,7 @@ function Mainbody() {
       if (target !== "no") {
         console.log(target);
         // fetch(`http://localhost:9632/rest/${target}`,{method:'GET'})
-        fetch(`https://zomato-backend-uv1y.onrender.com/rest/${target}`, { method: 'GET' })
+        fetch(`https://zomato-backend-uv1y.onrender.com/rest/${target}`,{ method: 'GET' })
           .then(res => res.json())
           .then((data) => {
             console.log(data);

@@ -1,4 +1,5 @@
 import React,{Fragment} from 'react';
+import './App.css'
 // import {BrowsreRouter as Router, Routes, Route} from 'react-Router-dom'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Zomato from './Zomato';

@@ -438,6 +438,7 @@ img{
 
 }
 .cart_icon i{
+    z-index: 25;
     color: #000;
     font-size: 20px;
     text-align: center;
